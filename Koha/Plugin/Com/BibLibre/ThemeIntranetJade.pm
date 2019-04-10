@@ -47,11 +47,46 @@ ul.biglinks-list li a.icon_general {
     border: solid 2px #dbd8d8;
     border-radius: 0px;
     background-color: #ffffff;
+    background-image:url('/plugin/Koha/Plugin/Com/BibLibre/ThemeIntranetJade/staff-home-icons-sprite.png');
 }
 ul.biglinks-list li a:hover.icon_general {
     background-color: #689f38;
     color: #eeeeee;
 }
+
+/* Copy from koha-tmpl/intranet-tmpl/prog/css/mainpage.css : */
+/* Classes used for each individual module link */
+ul.biglinks-list li a.icon_circulation {background-position:5px 3px;}
+ul.biglinks-list li a.icon_patrons {background-position:5px -89px;}
+ul.biglinks-list li a.icon_search {background-position:5px -181px;}
+ul.biglinks-list li a.icon_lists {background-position:5px -273px;}
+ul.biglinks-list li a.icon_cataloging {background-position:5px -365px;}
+ul.biglinks-list li a.icon_authorities {background-position:5px -457px;}
+
+ul.biglinks-list li a.icon_serials {background-position:5px -549px;}
+ul.biglinks-list li a.icon_acquisitions {background-position:5px -641px;}
+ul.biglinks-list li a.icon_reports {background-position:5px -733px;}
+ul.biglinks-list li a.icon_administration {background-position:5px -825px;}
+ul.biglinks-list li a.icon_tools {background-position:5px -917px;}
+ul.biglinks-list li a.icon_koha {background-position:5px -1008px;}
+ul.biglinks-list li a.icon_course_reserves {background-position:5px -1100px;}
+
+/* Classes used for each individual module link on hover*/
+ul.biglinks-list li a:hover.icon_circulation {background-position:5px -43px;}
+ul.biglinks-list li a:hover.icon_patrons {background-position:5px -135px;}
+ul.biglinks-list li a:hover.icon_search {background-position:5px -227px;}
+ul.biglinks-list li a:hover.icon_lists {background-position:5px -319px;}
+ul.biglinks-list li a:hover.icon_cataloging {background-position:5px -411px;}
+ul.biglinks-list li a:hover.icon_authorities {background-position:5px -503px;}
+
+ul.biglinks-list li a:hover.icon_serials {background-position:5px -595px;}
+ul.biglinks-list li a:hover.icon_acquisitions {background-position:5px -687px;}
+ul.biglinks-list li a:hover.icon_reports {background-position:5px -779px;}
+ul.biglinks-list li a:hover.icon_administration {background-position:5px -871px;}
+ul.biglinks-list li a:hover.icon_tools {background-position:5px -963px;}
+ul.biglinks-list li a:hover.icon_koha {background-position:5px -1054px;}
+ul.biglinks-list li a:hover.icon_course_reserves {background-position:5px -1146px;}
+/* ==== MODULE LINKS - End ==== */
 
 /* Header */
 .gradient {
