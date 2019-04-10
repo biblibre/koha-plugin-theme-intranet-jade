@@ -47,7 +47,7 @@ ul.biglinks-list li a.icon_general {
     border: solid 2px #dbd8d8;
     border-radius: 0px;
     background-color: #ffffff;
-    background-image:url('/plugin/Koha/Plugin/Com/BibLibre/ThemeIntranetJade/staff-home-icons-sprite.png');
+    background-image: url('/plugin/Koha/Plugin/Com/BibLibre/ThemeIntranetJade/staff-home-icons-sprite.png');
 }
 ul.biglinks-list li a:hover.icon_general {
     background-color: #689f38;
@@ -90,7 +90,7 @@ ul.biglinks-list li a:hover.icon_course_reserves {background-position:5px -1146p
 
 /* Big logo */
 #container-main {
-    background-image:url('/plugin/Koha/Plugin/Com/BibLibre/ThemeIntranetJade/background_koha_logo.png');
+    background-image: url('/plugin/Koha/Plugin/Com/BibLibre/ThemeIntranetJade/background_koha_logo.png');
 }
 
 /* Header */
@@ -107,13 +107,15 @@ ul.biglinks-list li a:hover.icon_course_reserves {background-position:5px -1146p
 
 /* Bread crumbs */
 #breadcrumbs {
-    background-color : #ffffff;
+    background-color: #ffffff;
 }
 
 /* Toolbar */
 div#toolbar, .btn-toolbar {
-    background-color : #eeeeee;
-    border: 1px solid #000000;
+    background-color: #eeeeee;
+    border: 1px solid #808080;
+    margin-top: 5px;
+    border-radius: 0px;
 }
 
 /* Messages */
