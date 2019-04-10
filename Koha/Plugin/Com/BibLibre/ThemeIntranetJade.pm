@@ -37,7 +37,8 @@ sub intranet_head {
 <style>
 /*
  * Jade Intranet Theme
- * Main color #689f38
+ * Main background color #ffffff
+ * Activ background color #689f38
  */
 
 /* Main page big links */
@@ -49,6 +50,18 @@ ul.biglinks-list li a.icon_general {
 ul.biglinks-list li a:hover.icon_general {
     background-color: #689f38;
     color: #eeeeee;
+}
+
+/* Header */
+.gradient {
+    display: inherit;
+    background-image: none;
+    border-bottom-width: 2px;
+    border-bottom-color: grey;
+    border-bottom-style: solid;
+}
+#searchheader, #header.navbar-default {
+    background: #ffffff;
 }
 
 </style>
