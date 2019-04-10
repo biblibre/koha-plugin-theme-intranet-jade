@@ -2,7 +2,11 @@
 
 ## Presentation
 
-TODO
+Some CSS rules for a intranet lighter and greener theme.
+
+Source of icons :
+* Umar Irshad https://www.iconfinder.com/iconsets/48-bubbles
+* Stefan Taubert https://www.iconfinder.com/iconsets/basic-user-interface-elements
 
 ## Packaging
 
