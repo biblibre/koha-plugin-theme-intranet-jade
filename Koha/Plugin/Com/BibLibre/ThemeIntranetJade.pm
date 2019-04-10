@@ -98,7 +98,7 @@ ul.biglinks-list li a:hover.icon_course_reserves {background-position:5px -1146p
     display: inherit;
     background-image: none;
     border-bottom-width: 2px;
-    border-bottom-color: grey;
+    border-bottom-color: #808080;
     border-bottom-style: solid;
 }
 #searchheader, #header.navbar-default {
@@ -119,6 +119,12 @@ div#toolbar, .btn-toolbar {
 /* Messages */
 div.message, div.note {
     background: #eeeeee;
+}
+
+fieldset, fieldset.rows, fieldset.brief, legend {
+    background-color: #ffffff;
+    border: 2px solid #dbd8d8;
+    border-radius: 0px;
 }
 
 </style>
