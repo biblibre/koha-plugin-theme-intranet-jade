@@ -38,7 +38,8 @@ sub intranet_head {
 /*
  * Jade Intranet Theme
  * Main background color #ffffff
- * Activ background color #689f38
+ * Second background color #eeeeee
+ * Highlight background color #689f38
  */
 
 /* Main page big links */
@@ -62,6 +63,22 @@ ul.biglinks-list li a:hover.icon_general {
 }
 #searchheader, #header.navbar-default {
     background: #ffffff;
+}
+
+/* Bread crumbs */
+#breadcrumbs {
+    background-color : #ffffff;
+}
+
+/* Toolbar */
+div#toolbar, .btn-toolbar {
+    background-color : #eeeeee;
+    border: 1px solid #000000;
+}
+
+/* Messages */
+div.message, div.note {
+    background: #eeeeee;
 }
 
 </style>
