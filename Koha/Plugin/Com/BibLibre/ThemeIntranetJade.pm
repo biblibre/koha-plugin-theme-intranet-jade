@@ -35,10 +35,20 @@ sub intranet_head {
 
     return q|
 <style>
-/* Jade Intranet Theme */
+/*
+ * Jade Intranet Theme
+ * Main color #689f38
+ */
 
-body {
-    background-color : white;
+/* Main page big links */
+ul.biglinks-list li a.icon_general {
+    border: solid 2px #dbd8d8;
+    border-radius: 0px;
+    background-color: #ffffff;
+}
+ul.biglinks-list li a:hover.icon_general {
+    background-color: #689f38;
+    color: #eeeeee;
 }
 
 </style>
