@@ -88,6 +88,11 @@ ul.biglinks-list li a:hover.icon_koha {background-position:5px -1054px;}
 ul.biglinks-list li a:hover.icon_course_reserves {background-position:5px -1146px;}
 /* ==== MODULE LINKS - End ==== */
 
+/* Big logo */
+#container-main {
+    background-image:url('/plugin/Koha/Plugin/Com/BibLibre/ThemeIntranetJade/background_koha_logo.png');
+}
+
 /* Header */
 .gradient {
     display: inherit;
