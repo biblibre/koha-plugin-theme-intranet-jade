@@ -12,5 +12,5 @@ Source of icons :
 
 To create KPZ archive from git repository, run the following command:
 
-  git archive --output=../koha-plugin.kpz --format=zip HEAD -- Koha
+``git archive --output=../koha-plugin.kpz --format=zip HEAD -- Koha``
 
